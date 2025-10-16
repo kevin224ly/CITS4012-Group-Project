@@ -10,26 +10,9 @@ venv/
 *.egg-info/
 .DS_Store
 
-# Virtual environment folder
-/.conda/
-/.mypy_cache/
-/.cache/
-/logs/
-/checkpoints/
+# Data files/folder
+data/*.json
 
-# Data & model outputs
-data/
-models/saved/
-experiments/logs/
-*.pt
-*.pth
-
-# Notebook checkpoints
-.ipynb_checkpoints/
-
-# Environment config
-requirements.lock
-environment.yml
 
 # Other files
 CITS4012_Project_Specification_S2_2025.pdf

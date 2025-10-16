@@ -1,0 +1,49 @@
+{
+  "model_a": {
+    "model_name": "Model A (BiLSTM + Cross-Attention)",
+    "val_accuracy": 0.7093558282208589,
+    "test_accuracy": 0.6942615239887112,
+    "val_macro_f1": 0.7065725734390873,
+    "test_macro_f1": 0.6609932488126545
+  },
+  "model_b": {
+    "model_name": "Model B (ESIM / BiGRU)",
+    "val_accuracy": 0.7300613496932515,
+    "test_accuracy": 0.7271872060206962,
+    "val_macro_f1": 0.7273515666022776,
+    "test_macro_f1": 0.7076191451746299
+  },
+  "model_c": {
+    "model_name": "Model C (Transformer Cross-Encoder)",
+    "val_accuracy": 0.6978527607361963,
+    "test_accuracy": 0.713546566321731,
+    "val_macro_f1": 0.696136530850266,
+    "test_macro_f1": 0.6924349829569223
+  },
+  "model_a_variants": [
+    {
+      "Model": "Model A (Bilinear Attn)",
+      "Val Acc": 0.7094,
+      "Test Acc": 0.6943,
+      "Test F1": 0.661
+    },
+    {
+      "Model": "Model A (Dot Attn)",
+      "Val Acc": 0.7071,
+      "Test Acc": 0.7079,
+      "Test F1": 0.6818
+    },
+    {
+      "Model": "Model A (No Attn)",
+      "Val Acc": 0.704,
+      "Test Acc": 0.6858,
+      "Test F1": 0.6768
+    },
+    {
+      "Model": "Model A (Bilinear, LSTM=64)",
+      "Val Acc": 0.7048,
+      "Test Acc": 0.6966,
+      "Test F1": 0.6771
+    }
+  ]
+}

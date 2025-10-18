@@ -1,0 +1,85 @@
+[
+  {
+    "model": "Model A (BiLSTM + Cross-Attention)",
+    "epochs": 5,
+    "batch_size": 64,
+    "optimizer": "Adam",
+    "learning_rate": 0.002,
+    "lstm_units": 128,
+    "dropout": 0.3,
+    "max_len": null
+  },
+  {
+    "model": "Model B (ESIM / BiGRU)",
+    "epochs": 10,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_grad_norm": 5.0,
+    "hidden_size": 128,
+    "dropout": 0.3
+  },
+  {
+    "model": "Model B (ESIM / BiGRU)",
+    "epochs": 10,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_grad_norm": 5.0,
+    "hidden_size": 128,
+    "dropout": 0.3
+  },
+  {
+    "model": "Model B (ESIM / BiGRU)",
+    "epochs": 10,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_grad_norm": 5.0,
+    "hidden_size": 128,
+    "dropout": 0.3
+  },
+  {
+    "model": "Model B (ESIM / BiGRU)",
+    "epochs": 10,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_grad_norm": 5.0,
+    "hidden_size": 128,
+    "dropout": 0.3
+  },
+  {
+    "model": "Model B (ESIM / BiGRU)",
+    "epochs": 10,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_grad_norm": 5.0,
+    "hidden_size": 128,
+    "dropout": 0.3
+  },
+  {
+    "model": "Model C (Transformer Cross-Encoder)",
+    "data_dir": "data",
+    "min_freq": 2,
+    "max_vocab_size": 30000,
+    "embed_dim": 200,
+    "hidden_size": 128,
+    "projection_dim": 256,
+    "mlp_dim": 256,
+    "dropout": 0.3,
+    "batch_size": 32,
+    "num_epochs": 10,
+    "patience": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_grad_norm": 5.0,
+    "seed": 2025
+  }
+]
